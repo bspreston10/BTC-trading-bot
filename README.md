@@ -16,10 +16,20 @@ By shifting the focus from proprietary trading to a service-based model, this pr
 ## Data Collection
 I started out by just focusing on Bitcoin (BTC/USDT). For my training data, I collected 1 hour candlestick movement using the binnance API from the ccxt library. To ensure that the strategy would work in multiple markets I grabbed data from a time period where Bitcoin was trending heavily, and I grabbed data from a time where Bitcoin was in a sideways market.
 
-BITCOIN Data
 <img width="515" alt="Screenshot 2024-11-26 at 3 13 54 PM" src="https://github.com/user-attachments/assets/fdb028c8-8d89-47d2-ad7b-381fd496a02e">
 
 
 For DOGE (DOGE/USDT) the only reason I started using this data was I wanted to see how my strategy would work on a coin with a much smaller market cap and value. Analysis for this coin is less strict due to the model mainly being trained on Bitcoin data.
 
+<img width="475" alt="Screenshot 2024-11-26 at 3 15 31 PM" src="https://github.com/user-attachments/assets/0f4dc404-4fe2-43cb-a3e1-bbf197686a1a">
+
 ## Strategy Creation
+My strategy combines multiple indicators including 
+
+
+
+
+
+
+
+
