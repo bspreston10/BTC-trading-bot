@@ -11,3 +11,15 @@ While the bot’s trading recommendations aim to generate profit, the long-term 
 - Potential expansions into other cryptocurrencies or markets.
 
 By shifting the focus from proprietary trading to a service-based model, this project highlights its potential to scale as a business while reducing financial risk.
+
+# Creation of Bot
+## Data Collection
+I started out by just focusing on Bitcoin (BTC/USDT). For my training data, I collected 1 hour candlestick movement using the binnance API from the ccxt library. To ensure that the strategy would work in multiple markets I grabbed data from a time period where Bitcoin was trending heavily, and I grabbed data from a time where Bitcoin was in a sideways market.
+
+BITCOIN Data
+<img width="515" alt="Screenshot 2024-11-26 at 3 13 54 PM" src="https://github.com/user-attachments/assets/fdb028c8-8d89-47d2-ad7b-381fd496a02e">
+
+
+For DOGE (DOGE/USDT) the only reason I started using this data was I wanted to see how my strategy would work on a coin with a much smaller market cap and value. Analysis for this coin is less strict due to the model mainly being trained on Bitcoin data.
+
+## Strategy Creation
