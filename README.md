@@ -24,9 +24,21 @@ For DOGE (DOGE/USDT) the only reason I started using this data was I wanted to s
 <img width="475" alt="Screenshot 2024-11-26 at 3 15 31 PM" src="https://github.com/user-attachments/assets/0f4dc404-4fe2-43cb-a3e1-bbf197686a1a">
 
 ## Strategy Creation
-My strategy combines multiple indicators including 
+I leverage a variety of technical indicators to identify trends, momentum, and potential reversal points. These include:
+- **MACD (Moving Average Convergence Divergence):** For detecting momentum and trend direction shifts
+- **EMA (Exponential Moving Average):** To emphasize recent price movements and quickly adapts to changing market conditions
+- **Bollinger Bands:** To measure volatility and overbought/oversold conditions
+- **RSI (Relative Strength Index):** For gauging the strength of price movements and spotting potential reversals
 
+Combining these metrics and optimizing the hyperparameters I was able to achieve these success metrics in backtesting:
 
+**Data representing a trending market**
+
+<img width="207" alt="Screenshot 2024-11-26 at 9 58 56 AM" src="https://github.com/user-attachments/assets/ac365a1a-06b8-41de-868c-560899d224c2">
+
+**Data representing a sideways market**
+
+<img width="208" alt="Screenshot 2024-11-27 at 12 36 44 AM" src="https://github.com/user-attachments/assets/fa0b60d6-400e-4b20-8253-a3cf9abdb745">
 
 
 
