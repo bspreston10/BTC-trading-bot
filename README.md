@@ -1,5 +1,11 @@
 # BTC-trading-bot
 Automated trading bot for Bitcoin that generates buy/sell signals
+## Email Generated
+
+<img width="245" alt="Screenshot 2024-11-27 at 1 02 11 AM" src="https://github.com/user-attachments/assets/6c08e658-3640-4996-8bc8-9784ff6fa7b2">      <img width="886" alt="Screenshot 2024-11-27 at 1 03 12 AM" src="https://github.com/user-attachments/assets/5951e39b-38df-48e2-ae44-a3de39df84e0">
+
+
+
 ## Project Objective
 This project involved designing an automated trading bot focused on Bitcoin (BTC) and Dogecoin (DOGE). The bot provides real-time buy/sell recommendations by analyzing market data and sends trading signals via email at the start of every hour.
 ### Why Would I pick these stocks?
@@ -34,5 +40,7 @@ Combining these metrics and optimizing the hyperparameters I was able to achieve
 
 <img width="191" alt="Screenshot 2024-11-27 at 12 46 33 AM" src="https://github.com/user-attachments/assets/3403eeb5-3404-411e-bdfd-995f01ad903d">
 
+#### Sentiment Analysis
+Bitcoin, and crypto in general, is known to be highly reactive to news event that can trigger massive spikes in price. To combat this, I decided to run an API that fetchs news relating to Bitcoin and crypto in general, and then I implement a Natural Language Processing tool to analyze key words in the data and labels it "Bullish", "Bearish", or "Nuetral" and gives it a score based on the probability that it is that label.
 
-
+<img width="1019" alt="Screenshot 2024-11-27 at 1 00 27 AM" src="https://github.com/user-attachments/assets/cd63c1c9-20f2-448f-ae5c-71656a33e744">
