@@ -32,16 +32,7 @@ I leverage a variety of technical indicators to identify trends, momentum, and p
 
 Combining these metrics and optimizing the hyperparameters I was able to achieve these success metrics in backtesting:
 
-**Data representing a trending market**
-
-<img width="207" alt="Screenshot 2024-11-26 at 9 58 56 AM" src="https://github.com/user-attachments/assets/ac365a1a-06b8-41de-868c-560899d224c2">
-
-**Data representing a sideways market**
-
-<img width="208" alt="Screenshot 2024-11-27 at 12 36 44 AM" src="https://github.com/user-attachments/assets/fa0b60d6-400e-4b20-8253-a3cf9abdb745">
-
-
-
+<img width="228" alt="Screenshot 2024-11-27 at 12 43 20 AM" src="https://github.com/user-attachments/assets/3473a9b8-1766-4905-bd3b-c98f70ca10ea">
 
 
 
