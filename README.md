@@ -47,6 +47,7 @@ Bitcoin, and crypto in general, is known to be highly reactive to news event tha
 
 ## SQL Database Integration
 <img width="842" alt="Screenshot 2024-11-27 at 8 26 00 PM" src="https://github.com/user-attachments/assets/fd8122f5-0147-46bf-823e-810b0e26c6f9">
+
 Each time an email is sent, the trading signal and its associated metadata—such as timestamps, market conditions, and entry prices—are seamlessly stored in a structured SQL table. This table is designed to automatically update with every new signal, ensuring the accurate and timely capture of critical data for analysis and decision-making.
 
 ## Implementing the Model on a Live Market
