@@ -1,5 +1,19 @@
 # BTC-trading-bot
 Automated trading bot for Bitcoin that generates buy/sell signals
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Email Notifications](#email-notifications)
+- [Data Collection](#data-collection)
+- [Strategy Creation](#strategy-creation)
+- [Technical Indicators](#technical-indicators)
+- [Sentiment Analysis](#sentiment-analysis)
+- [SQL Database Integration](#sql-database-integration)
+- [Live Market Results](#live-market-results)
+- [Next Steps](#next-steps)
+
+
+
 ## Email Generated
 
 <img width="245" alt="Screenshot 2024-11-27 at 1 02 11 AM" src="https://github.com/user-attachments/assets/6c08e658-3640-4996-8bc8-9784ff6fa7b2">      <img width="886" alt="Screenshot 2024-11-27 at 1 03 12 AM" src="https://github.com/user-attachments/assets/5951e39b-38df-48e2-ae44-a3de39df84e0">
