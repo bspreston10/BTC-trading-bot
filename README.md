@@ -1,5 +1,5 @@
 # BTC-trading-bot
-Automated trading bot for Bitcoin that generates buy/sell signals
+
 
 ## Table of Contents
 - [Project Objective](#project-objective)
