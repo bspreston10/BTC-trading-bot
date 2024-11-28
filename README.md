@@ -59,3 +59,5 @@ After comnfirming that the model performs well during backtesting, I decided it 
 
 ## Next Steps
 Due to the performance of the metrics observed, I deemed it appropriate to implement a portfolio management system within the code. This system autonomously executes buy and sell actions for the cryptocurrencies based on the trading signals provided in the email alerts. Each trade, along with its relevant details, is logged in a structured CSV file to ensure complete transparency and traceability. Over time, this logged data will be thoroughly reviewed and analyzed to evaluate how the strategy performs in a live market environment. The insights gained will provide a clearer understanding of profit trends and areas for potential refinement, bringing the project closer to real-world application and optimization
+
+I am currently focused on analyzing blockchain activity data to explore its potential in providing deeper insights into predicting Bitcoin price movements. By examining metrics such as transaction volumes, unique addresses, and other on-chain indicators, I aim to uncover patterns and correlations that could enhance the accuracy of price movement predictions.
