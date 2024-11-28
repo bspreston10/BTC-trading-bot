@@ -57,4 +57,5 @@ After comnfirming that the model performs well during backtesting, I decided it 
 
 <img width="208" alt="Screenshot 2024-11-27 at 10 43 06 AM" src="https://github.com/user-attachments/assets/ca2bcdef-89e4-4c3f-acef-b77c44aece18">
 
-
+## Next Steps
+Due to the performance of the metrics observed, I deemed it appropriate to implement a portfolio management system within the code. This system autonomously executes buy and sell actions for the cryptocurrencies based on the trading signals provided in the email alerts. Each trade, along with its relevant details, is logged in a structured CSV file to ensure complete transparency and traceability. Over time, this logged data will be thoroughly reviewed and analyzed to evaluate how the strategy performs in a live market environment. The insights gained will provide a clearer understanding of profit trends and areas for potential refinement, bringing the project closer to real-world application and optimization
