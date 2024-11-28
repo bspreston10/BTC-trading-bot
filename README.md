@@ -44,3 +44,16 @@ Combining these metrics and optimizing the hyperparameters I was able to achieve
 Bitcoin, and crypto in general, is known to be highly reactive to news event that can trigger massive spikes in price. To combat this, I decided to run an API that fetchs news relating to Bitcoin and crypto in general, and then I implement a Natural Language Processing tool to analyze key words in the data and labels it "Bullish", "Bearish", or "Nuetral" and gives it a score based on the probability that it is that label.
 
 <img width="1019" alt="Screenshot 2024-11-27 at 1 00 27 AM" src="https://github.com/user-attachments/assets/cd63c1c9-20f2-448f-ae5c-71656a33e744">
+
+## SQL Database Integration
+<img width="842" alt="Screenshot 2024-11-27 at 8 26 00 PM" src="https://github.com/user-attachments/assets/fd8122f5-0147-46bf-823e-810b0e26c6f9">
+Each time an email is sent, the trading signal and its associated metadata—such as timestamps, market conditions, and entry prices—are seamlessly stored in a structured SQL table. This table is designed to automatically update with every new signal, ensuring the accurate and timely capture of critical data for analysis and decision-making.
+
+## Implementing the Model on a Live Market
+After comnfirming that the model performs well during backtesting, I decided it was time to run it against the live market to see how it detects trading signals live. After running the bot periodically for a little over a week, I achieved the metrics below:
+
+<img width="415" alt="Screenshot 2024-11-27 at 10 43 30 AM" src="https://github.com/user-attachments/assets/8a71d3af-198e-4de3-a4d7-6dbb75fca946">
+
+<img width="208" alt="Screenshot 2024-11-27 at 10 43 06 AM" src="https://github.com/user-attachments/assets/ca2bcdef-89e4-4c3f-acef-b77c44aece18">
+
+
