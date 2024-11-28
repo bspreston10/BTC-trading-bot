@@ -31,7 +31,7 @@ By shifting the focus from proprietary trading to a service-based model, this pr
 
 # Creation of Bot
 ## Data Collection
-I started out by just focusing on Bitcoin (BTC/USDT). For my training data, I collected 1 hour candlestick movement using the binnance API from the ccxt library. To ensure that the strategy would work in multiple markets I grabbed data from a time period where Bitcoin was trending heavily, and I grabbed data from a time where Bitcoin was in a sideways market.
+I started out by just focusing on Bitcoin (BTC/USDT). For my training data, I collected 1 hour candlestick movement using the Binnance API from the ccxt library. To ensure that the strategy would work in multiple markets I grabbed data from a time period where Bitcoin was trending heavily, and I grabbed data from a time where Bitcoin was in a sideways market.
 
 <img width="515" alt="Screenshot 2024-11-26 at 3 13 54 PM" src="https://github.com/user-attachments/assets/fdb028c8-8d89-47d2-ad7b-381fd496a02e">
 
@@ -52,7 +52,7 @@ Combining these metrics and optimizing the hyperparameters I was able to achieve
 <img width="191" alt="Screenshot 2024-11-27 at 12 46 33 AM" src="https://github.com/user-attachments/assets/3403eeb5-3404-411e-bdfd-995f01ad903d">
 
 #### Sentiment Analysis
-Bitcoin, and crypto in general, is known to be highly reactive to news event that can trigger massive spikes in price. To combat this, I decided to run an API that fetchs news relating to Bitcoin and crypto in general, and then I implement a Natural Language Processing tool to analyze key words in the data and labels it "Bullish", "Bearish", or "Nuetral" and gives it a score based on the probability that it is that label.
+Bitcoin, and crypto in general, is known to be highly reactive to news event that can trigger massive spikes in price. To combat this, I decided to run an API that fetches news relating to Bitcoin and crypto in general, and then I implement a Natural Language Processing tool to analyze key words in the data and labels it "Bullish", "Bearish", or "Neutral" and gives it a score based on the probability that it is that label.
 
 <img width="1019" alt="Screenshot 2024-11-27 at 1 00 27 AM" src="https://github.com/user-attachments/assets/cd63c1c9-20f2-448f-ae5c-71656a33e744">
 
@@ -62,7 +62,7 @@ Bitcoin, and crypto in general, is known to be highly reactive to news event tha
 Each time an email is sent, the trading signal and its associated metadata—such as timestamps, market conditions, and entry prices—are seamlessly stored in a structured SQL table. This table is designed to automatically update with every new signal, ensuring the accurate and timely capture of critical data for analysis and decision-making.
 
 ## Implementing the Model on a Live Market
-After comnfirming that the model performs well during backtesting, I decided it was time to run it against the live market to see how it detects trading signals live. After running the bot periodically for a little over a week, I achieved the metrics below:
+After confirming that the model performs well during backtesting, I decided it was time to run it against the live market to see how it detects trading signals live. After running the bot periodically for a little over a week, I achieved the metrics below:
 
 <img width="415" alt="Screenshot 2024-11-27 at 10 43 30 AM" src="https://github.com/user-attachments/assets/8a71d3af-198e-4de3-a4d7-6dbb75fca946">
 
