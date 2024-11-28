@@ -3,13 +3,11 @@ Automated trading bot for Bitcoin that generates buy/sell signals
 
 ## Table of Contents
 - [Project Objective](#project-objective)
-- [Email Notifications](#email-notifications)
 - [Data Collection](#data-collection)
 - [Strategy Creation](#strategy-creation)
 - [Technical Indicators](#technical-indicators)
 - [Sentiment Analysis](#sentiment-analysis)
 - [SQL Database Integration](#sql-database-integration)
-- [Live Market Results](#live-market-results)
 - [Next Steps](#next-steps)
 
 
