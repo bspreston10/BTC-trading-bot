@@ -9,7 +9,8 @@
 - [SQL Database Integration](#sql-database-integration)
 - [Next Steps](#next-steps)
 
-
+# Link to Dashboard
+https://btc-trading-bot-dashboard.streamlit.app/
 
 ## Email Generated
 
