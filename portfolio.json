@@ -1,0 +1,17 @@
+{
+    "cash": 47351.3931,
+    "positions": {
+        "BTC/USDT": {
+            "quantity": 0.3572575249586973,
+            "entry_price": 104999.68,
+            "take_profit_price": 110249.664,
+            "stop_loss_price": 101849.68959999998
+        },
+        "ETH/USDT": {
+            "quantity": 4.778713387198526,
+            "entry_price": 3431.21,
+            "take_profit_price": 3602.7705,
+            "stop_loss_price": 3328.2736999999997
+        }
+    }
+}
