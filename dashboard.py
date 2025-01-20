@@ -41,7 +41,7 @@ def load_trade_history():
         return pd.DataFrame()
 
 # Streamlit App
-st.title("Trading Bot Dashboard")
+st.title("Automated Trading Bot Dashboard")
 st.sidebar.header("Filters & Navigation")
 
 # Sidebar navigation
